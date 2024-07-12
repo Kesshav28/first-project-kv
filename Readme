@@ -1,0 +1,15 @@
+
+# This project will only install docker and run a container with apache web-server on a newly created VM!!!
+ 
+
+Base Script name = apache2-container.sh
+
+Docker install script file name = docker-installation.sh
+
+Image Name = new-image
+
+Container name = new-app
+
+Docker file name = Dockerfile
+
+Code file = index.html
