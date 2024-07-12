@@ -3,15 +3,15 @@
 
 FROM ubuntu:23.04
 
-RUN sudo apt-get udpate -y
+RUN apt-get udpate -y
 
-RUN sudo apt-get install apache2 -y 
+RUN apt-get install apache2 -y 
 
-RUN sudo useradd keshav 
+RUN useradd keshav 
 
-RUN sudo mkdir /home/keshav
+RUN mkdir /home/keshav
 
-RUN sudo rm -rf /var/www/html/*
+RUN rm -rf /var/www/html/*
 
 COPY index.html /var/www/html/
 
