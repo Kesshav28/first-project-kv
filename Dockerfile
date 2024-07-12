@@ -3,7 +3,7 @@
 
 FROM ubuntu:23.04
 
-RUN apt-get udpate -y
+RUN apt-get update -y
 
 RUN apt-get install apache2 -y 
 
@@ -19,6 +19,6 @@ EXPOSE 80
 
 WORKDIR /home/keshav/
 
-CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+CMD /usr/sbin/apache2ctl -D FOREGROUND
 
 
