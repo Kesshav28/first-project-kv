@@ -12,3 +12,6 @@ sudo docker build -t new-image .
 
 #below command is for running the container with the created Image
 sudo docker run -dt --name new-app -p 80:80 new-image /bin/bash
+
+#below command is for start the cotainer services
+sudo docker exec new-app /bin/bash service apache2 start 
