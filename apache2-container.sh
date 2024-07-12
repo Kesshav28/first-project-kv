@@ -8,7 +8,7 @@ sudo chmod 777 docker-installation.sh
 sudo sh docker-installation.sh
 
 # below command is for creating an image 
-sudo docker build -t new-image Dockerfile
+sudo docker build -t new-image .
 
 #below command is for running the container with the created Image
 sudo docker run -dt --name new-app -p 80:80 new-image /bin/bash
