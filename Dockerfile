@@ -13,7 +13,7 @@ RUN mkdir /home/keshav
 
 RUN rm -rf /var/www/html/*
 
-COPY index.html /var/www/html/
+COPY mustacheenthusiast/ /var/www/html/
 
 EXPOSE 80
 
