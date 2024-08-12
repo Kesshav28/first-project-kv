@@ -1,5 +1,5 @@
 
-# This project will only install docker and run a container with apache web-server on a newly created VM!!!
+# This project will only install docker and run a container with Apache web server on a fresh Ubuntu VM!!!
  
 
 Base Script name = apache2-container.sh
